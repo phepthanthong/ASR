@@ -1,0 +1,12 @@
+#!/bin/bash 
+themthongtin () {
+echo "Nhap thong tin SV"
+read thongtin
+}
+indanhsach () {
+    echo "nhap MaSV"
+    read ma
+    grep ^$ma 
+    while read line
+    do 
+	if [ $ma -
